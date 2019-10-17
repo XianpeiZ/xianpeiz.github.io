@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ZXP&#39;s Notebook</title>
+  
+  <subtitle>keep moving</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-10-16T09:56:13.550Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>zxp</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hello</title>
+    <link href="http://yoursite.com/2019/10/16/hello/"/>
+    <id>http://yoursite.com/2019/10/16/hello/</id>
+    <published>2019-10-16T09:55:16.923Z</published>
+    <updated>2019-10-16T09:56:13.550Z</updated>
+    
+    <content type="html"><![CDATA[<p>第一篇博客，记录自己，拥抱世界！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;第一篇博客，记录自己，拥抱世界！&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
