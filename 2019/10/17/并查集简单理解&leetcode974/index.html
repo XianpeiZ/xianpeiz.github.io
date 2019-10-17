@@ -108,13 +108,15 @@
 
 
 
-  <meta name="description" content="personal website">
-<meta property="og:type" content="website">
-<meta property="og:title" content="ZXP&#39;s Notebook">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;index.html">
+  <meta name="description" content="概念并查集是一种数据结构，可以有效处理数据的关联及查找问题。 举例说明假设有这样一个问题：在一个地区有6个城市A, B, C, D, E, F，现在知道所有的城市之间的道路连接情况，A-B, D-E, C- A, B-F，问从A能到E吗？再修几条路可使得所有城市之间连通？ 在认识到并查集之前，为了解决这个问题，我会将数据构造图的数据结构来处理此类问题，判断两个城市是否关联，要判断他们是否属于同一个">
+<meta name="keywords" content="并查集, 数据结构">
+<meta property="og:type" content="article">
+<meta property="og:title" content="并查集简单理解&amp;leetcode974">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;17&#x2F;%E5%B9%B6%E6%9F%A5%E9%9B%86%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3&amp;leetcode974&#x2F;index.html">
 <meta property="og:site_name" content="ZXP&#39;s Notebook">
-<meta property="og:description" content="personal website">
+<meta property="og:description" content="概念并查集是一种数据结构，可以有效处理数据的关联及查找问题。 举例说明假设有这样一个问题：在一个地区有6个城市A, B, C, D, E, F，现在知道所有的城市之间的道路连接情况，A-B, D-E, C- A, B-F，问从A能到E吗？再修几条路可使得所有城市之间连通？ 在认识到并查集之前，为了解决这个问题，我会将数据构造图的数据结构来处理此类问题，判断两个城市是否关联，要判断他们是否属于同一个">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-10-17T09:54:37.117Z">
 <meta name="twitter:card" content="summary">
 
 
@@ -124,7 +126,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2019/10/17/并查集简单理解&leetcode974/"/>
 
 
 
@@ -134,7 +136,7 @@
   };
 </script>
 
-  <title>ZXP's Notebook</title>
+  <title>并查集简单理解&leetcode974 | ZXP's Notebook</title>
   
 
 
@@ -181,8 +183,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -223,7 +224,7 @@
         
         
           
-          <li class="menu-item menu-item-home menu-item-active">
+          <li class="menu-item menu-item-home">
     <a href="/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
   </li>
@@ -291,9 +292,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -325,11 +326,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/10/17/%E5%B9%B6%E6%9F%A5%E9%9B%86%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3&leetcode974/" itemprop="url">
-                  并查集简单理解&leetcode974
-                </a>
+          <h1 class="post-title" itemprop="name headline">并查集简单理解&leetcode974
               
             
           </h1>
@@ -420,9 +417,7 @@
       
 
       
-        
-          
-            <h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p>并查集是一种数据结构，可以有效处理数据的关联及查找问题。</p>
+        <h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p>并查集是一种数据结构，可以有效处理数据的关联及查找问题。</p>
 <h3 id="举例说明"><a href="#举例说明" class="headerlink" title="举例说明"></a>举例说明</h3><p>假设有这样一个问题：在一个地区有6个城市A, B, C, D, E, F，现在知道所有的城市之间的道路连接情况，A-B, D-E, C- A, B-F，问从A能到E吗？再修几条路可使得所有城市之间连通？</p>
 <p>在认识到并查集之前，为了解决这个问题，我会将数据构造图的数据结构来处理此类问题，判断两个城市是否关联，要判断他们是否属于同一个连通分量。</p>
 <p>使用并查集的思想，首先我们初始化，使得每个城市的祖先都是它自身。然后根据已知数据，A-B, A是B的祖先的儿子，即A是B的儿子；同样根据D-E，D是E的儿子；根据C-A, C是A的祖先的儿子，即C是B的儿子；根据B-F, B是F的儿子。可知A的祖先是B，E的祖先是E自身，他们祖先不同，所以A与E不连通；共有两个祖先是自身的元素，B和E，即有两个连通分量，再建一条路即可。</p>
@@ -448,8 +443,6 @@
 <h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">removeStones</span><span class="params">(<span class="keyword">int</span>[][] stones)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> N = stones.length;</span><br><span class="line">        <span class="comment">//构造大小为20000的并查集</span></span><br><span class="line">        DSU dsu = <span class="keyword">new</span> DSU(<span class="number">20000</span>);</span><br><span class="line">        <span class="comment">//union</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span>[] stone: stones)</span><br><span class="line">            dsu.union(stone[<span class="number">0</span>], stone[<span class="number">1</span>] + <span class="number">10000</span>);</span><br><span class="line"></span><br><span class="line">        Set&lt;Integer&gt; seen = <span class="keyword">new</span> HashSet();</span><br><span class="line">        <span class="comment">//寻找不同祖先的个数</span></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span>[] stone: stones)</span><br><span class="line">            seen.add(dsu.find(stone[<span class="number">0</span>]));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> N - seen.size();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//并查集类</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">DSU</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span>[] parent;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">DSU</span><span class="params">(<span class="keyword">int</span> N)</span> </span>&#123;</span><br><span class="line">        parent = <span class="keyword">new</span> <span class="keyword">int</span>[N];</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; N; ++i)</span><br><span class="line">            parent[i] = i;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">find</span><span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (parent[x] != x) parent[x] = find(parent[x]);</span><br><span class="line">        <span class="keyword">return</span> parent[x];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">union</span><span class="params">(<span class="keyword">int</span> x, <span class="keyword">int</span> y)</span> </span>&#123;</span><br><span class="line">        parent[find(x)] = find(y);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
-          
-        
       
     </div>
 
@@ -464,185 +457,53 @@
     
 
     
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>zxp</li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://yoursite.com/2019/10/17/%E5%B9%B6%E6%9F%A5%E9%9B%86%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3&leetcode974/" title="并查集简单理解&leetcode974">http://yoursite.com/2019/10/17/%E5%B9%B6%E6%9F%A5%E9%9B%86%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3&leetcode974/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！</li>
+</ul>
+
+      </div>
+    
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/16/hello/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="zxp">
-      <meta itemprop="description" content="personal website">
-      <meta itemprop="image" content="/images/header.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="ZXP's Notebook">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/10/16/hello/" itemprop="url">
-                  hello
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-10-16 17:55:16 / 修改时间：17:56:13" itemprop="dateCreated datePublished" datetime="2019-10-16T17:55:16+08:00">2019-10-16</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" rel="tag"># 并查集, 数据结构</a>
           
-            
-          
-
-          
-          
-
-          
-
-          
-            <div class="post-symbolscount">
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">本文字数：</span>
-                
-                <span title="本文字数">24</span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">1 分钟</span>
-              
-            </div>
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>第一篇博客，记录自己，拥抱世界！</p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
       
 
       
       
-        <div class="post-eof"></div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/10/16/hello/" rel="next" title="hello">
+                <i class="fa fa-chevron-left"></i> hello
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
       
     </footer>
   </div>
@@ -652,14 +513,19 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -680,8 +546,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -766,6 +641,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#概念"><span class="nav-number">1.</span> <span class="nav-text">概念</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#举例说明"><span class="nav-number">1.1.</span> <span class="nav-text">举例说明</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#并查集主要操作"><span class="nav-number">1.2.</span> <span class="nav-text">并查集主要操作</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#leetcode974"><span class="nav-number">2.</span> <span class="nav-text">leetcode974</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#题目描述"><span class="nav-number">2.1.</span> <span class="nav-text">题目描述</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#思路分析"><span class="nav-number">2.2.</span> <span class="nav-text">思路分析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#代码"><span class="nav-number">2.3.</span> <span class="nav-text">代码</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -916,6 +807,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.3.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.3.0"></script>
+
+
 
   
 
