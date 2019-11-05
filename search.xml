@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>CleanCode阅读心得</title>
+    <url>/2019/11/05/CleanCode%E9%98%85%E8%AF%BB%E5%BF%83%E5%BE%97/</url>
+    <content><![CDATA[<p>什么是整洁的代码？只做一件事、表达清晰的代码。具体来讲，可以是消除重复，提高表达力。从面向过程到面向对象，再到后来出现的面向切片编程，都是在一定程度上消除重复代码，来降低复杂度，从而达到提高生产力的目的。全书从几个方面具体介绍了保持代码“Clean”的方法。</p>
+]]></content>
+      <categories>
+        <category>读书笔记</category>
+      </categories>
+      <tags>
+        <tag>代码质量</tag>
+        <tag>代码风格</tag>
+        <tag>软件设计</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>LaTex学习</title>
+    <url>/2019/10/28/LaTex%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h2 id="latex命令及文件格式"><a href="#latex命令及文件格式" class="headerlink" title="latex命令及文件格式"></a>latex命令及文件格式</h2><p>LaTeX源代码是tex后缀的文件，假设有一个helloworld.tex源代码文件。</p>
+<h4 id="latex和dvipdfmx命令"><a href="#latex和dvipdfmx命令" class="headerlink" title="latex和dvipdfmx命令"></a>latex和dvipdfmx命令</h4><p>使用latex命令<code>latex helloworld.tex</code>，在源文件所在目录下，会生成helloworld.dvi文件。</p>
+<p>进一步生成PDF文件，可以使用<code>dvipdfmx helloworld.dvi</code>将DVI转为PDF。</p>
+<h4 id="pdflatex和xelatex"><a href="#pdflatex和xelatex" class="headerlink" title="pdflatex和xelatex"></a>pdflatex和xelatex</h4><p>可以使用<code>pdflatex helloworld.tex</code>或者<code>xelatex helloworld.tex</code>直接生成PDF文件</p>
+<p><em>使用ctex宏库来支持中文，经试验，utf-8编码的文件只能用xelatex命令，gbk编码的文件只能用pdflatex命令，否则会出现乱码。windows默认编码是gbk</em></p>
+<h2 id="语法及格式"><a href="#语法及格式" class="headerlink" title="语法及格式"></a>语法及格式</h2><p><code>\documentclass[&lt;options&gt;]{&lt;class-name&gt;}</code></p>
+<p>规定源代码要生成文档的性质,LaTeX提供的基础文档类有article, report, book</p>
+]]></content>
+      <tags>
+        <tag>LaTex</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>并查集简单理解&leetcode974</title>
     <url>/2019/10/17/%E5%B9%B6%E6%9F%A5%E9%9B%86%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3&amp;leetcode974/</url>
     <content><![CDATA[<h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p>并查集是一种数据结构，可以有效处理数据的关联及查找问题。</p>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-10-28T06:51:45.984Z</updated>
+  <updated>2019-11-05T07:54:55.195Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,61 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CleanCode阅读心得</title>
+    <link href="http://yoursite.com/2019/11/05/CleanCode%E9%98%85%E8%AF%BB%E5%BF%83%E5%BE%97/"/>
+    <id>http://yoursite.com/2019/11/05/CleanCode阅读心得/</id>
+    <published>2019-11-05T06:47:27.000Z</published>
+    <updated>2019-11-05T07:54:55.195Z</updated>
+    
+    <content type="html"><![CDATA[<p>什么是整洁的代码？只做一件事、表达清晰的代码。具体来讲，可以是消除重复，提高表达力。从面向过程到面向对象，再到后来出现的面向切片编程，都是在一定程度上消除重复代码，来降低复杂度，从而达到提高生产力的目的。全书从几个方面具体介绍了保持代码“Clean”的方法。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;什么是整洁的代码？只做一件事、表达清晰的代码。具体来讲，可以是消除重复，提高表达力。从面向过程到面向对象，再到后来出现的面向切片编程，都是在一定程度上消除重复代码，来降低复杂度，从而达到提高生产力的目的。全书从几个方面具体介绍了保持代码“Clean”的方法。&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="读书笔记" scheme="http://yoursite.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="代码质量" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
+    
+      <category term="代码风格" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%A0%81%E9%A3%8E%E6%A0%BC/"/>
+    
+      <category term="软件设计" scheme="http://yoursite.com/tags/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>LaTex学习</title>
+    <link href="http://yoursite.com/2019/10/28/LaTex%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://yoursite.com/2019/10/28/LaTex学习/</id>
+    <published>2019-10-28T07:23:31.000Z</published>
+    <updated>2019-11-05T07:55:23.361Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="latex命令及文件格式"><a href="#latex命令及文件格式" class="headerlink" title="latex命令及文件格式"></a>latex命令及文件格式</h2><p>LaTeX源代码是tex后缀的文件，假设有一个helloworld.tex源代码文件。</p><h4 id="latex和dvipdfmx命令"><a href="#latex和dvipdfmx命令" class="headerlink" title="latex和dvipdfmx命令"></a>latex和dvipdfmx命令</h4><p>使用latex命令<code>latex helloworld.tex</code>，在源文件所在目录下，会生成helloworld.dvi文件。</p><p>进一步生成PDF文件，可以使用<code>dvipdfmx helloworld.dvi</code>将DVI转为PDF。</p><h4 id="pdflatex和xelatex"><a href="#pdflatex和xelatex" class="headerlink" title="pdflatex和xelatex"></a>pdflatex和xelatex</h4><p>可以使用<code>pdflatex helloworld.tex</code>或者<code>xelatex helloworld.tex</code>直接生成PDF文件</p><p><em>使用ctex宏库来支持中文，经试验，utf-8编码的文件只能用xelatex命令，gbk编码的文件只能用pdflatex命令，否则会出现乱码。windows默认编码是gbk</em></p><h2 id="语法及格式"><a href="#语法及格式" class="headerlink" title="语法及格式"></a>语法及格式</h2><p><code>\documentclass[&lt;options&gt;]{&lt;class-name&gt;}</code></p><p>规定源代码要生成文档的性质,LaTeX提供的基础文档类有article, report, book</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;latex命令及文件格式&quot;&gt;&lt;a href=&quot;#latex命令及文件格式&quot; class=&quot;headerlink&quot; title=&quot;latex命令及文件格式&quot;&gt;&lt;/a&gt;latex命令及文件格式&lt;/h2&gt;&lt;p&gt;LaTeX源代码是tex后缀的文件，假设有一个hellowo
+      
+    
+    </summary>
+    
+    
+    
+      <category term="LaTex" scheme="http://yoursite.com/tags/LaTex/"/>
+    
+  </entry>
   
   <entry>
     <title>并查集简单理解&amp;leetcode974</title>
