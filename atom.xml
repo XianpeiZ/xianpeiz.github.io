@@ -5,9 +5,9 @@
   <subtitle>keep moving</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://xianpeiz.github.io/"/>
   <updated>2019-11-06T08:25:54.337Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://xianpeiz.github.io/</id>
   
   <author>
     <name>zxp</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>CleanCode阅读心得</title>
-    <link href="http://yoursite.com/2019/11/05/CleanCode%E9%98%85%E8%AF%BB%E5%BF%83%E5%BE%97/"/>
-    <id>http://yoursite.com/2019/11/05/CleanCode阅读心得/</id>
+    <link href="http://xianpeiz.github.io/2019/11/05/CleanCode%E9%98%85%E8%AF%BB%E5%BF%83%E5%BE%97/"/>
+    <id>http://xianpeiz.github.io/2019/11/05/CleanCode阅读心得/</id>
     <published>2019-11-05T06:47:27.000Z</published>
     <updated>2019-11-06T08:25:54.337Z</updated>
     
@@ -36,21 +36,21 @@
     </summary>
     
     
-      <category term="读书笔记" scheme="http://yoursite.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+      <category term="读书笔记" scheme="http://xianpeiz.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="代码质量" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
+      <category term="代码质量" scheme="http://xianpeiz.github.io/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/"/>
     
-      <category term="代码风格" scheme="http://yoursite.com/tags/%E4%BB%A3%E7%A0%81%E9%A3%8E%E6%A0%BC/"/>
+      <category term="代码风格" scheme="http://xianpeiz.github.io/tags/%E4%BB%A3%E7%A0%81%E9%A3%8E%E6%A0%BC/"/>
     
-      <category term="软件设计" scheme="http://yoursite.com/tags/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1/"/>
+      <category term="软件设计" scheme="http://xianpeiz.github.io/tags/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1/"/>
     
   </entry>
   
   <entry>
     <title>LaTex学习</title>
-    <link href="http://yoursite.com/2019/10/28/LaTex%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://yoursite.com/2019/10/28/LaTex学习/</id>
+    <link href="http://xianpeiz.github.io/2019/10/28/LaTex%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://xianpeiz.github.io/2019/10/28/LaTex学习/</id>
     <published>2019-10-28T07:23:31.000Z</published>
     <updated>2019-11-05T07:55:23.361Z</updated>
     
@@ -67,14 +67,14 @@
     
     
     
-      <category term="LaTex" scheme="http://yoursite.com/tags/LaTex/"/>
+      <category term="LaTex" scheme="http://xianpeiz.github.io/tags/LaTex/"/>
     
   </entry>
   
   <entry>
     <title>并查集简单理解&amp;leetcode974</title>
-    <link href="http://yoursite.com/2019/10/17/%E5%B9%B6%E6%9F%A5%E9%9B%86%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3&amp;leetcode974/"/>
-    <id>http://yoursite.com/2019/10/17/并查集简单理解&amp;leetcode974/</id>
+    <link href="http://xianpeiz.github.io/2019/10/17/%E5%B9%B6%E6%9F%A5%E9%9B%86%E7%AE%80%E5%8D%95%E7%90%86%E8%A7%A3&amp;leetcode974/"/>
+    <id>http://xianpeiz.github.io/2019/10/17/并查集简单理解&amp;leetcode974/</id>
     <published>2019-10-17T08:30:08.000Z</published>
     <updated>2019-10-28T06:51:45.984Z</updated>
     
@@ -91,21 +91,21 @@
     </summary>
     
     
-      <category term="算法" scheme="http://yoursite.com/categories/%E7%AE%97%E6%B3%95/"/>
+      <category term="算法" scheme="http://xianpeiz.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="并查集" scheme="http://yoursite.com/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
+      <category term="并查集" scheme="http://xianpeiz.github.io/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/"/>
     
-      <category term="数据结构" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+      <category term="数据结构" scheme="http://xianpeiz.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
     
-      <category term="leetcode" scheme="http://yoursite.com/tags/leetcode/"/>
+      <category term="leetcode" scheme="http://xianpeiz.github.io/tags/leetcode/"/>
     
   </entry>
   
   <entry>
     <title>hello</title>
-    <link href="http://yoursite.com/2019/10/16/hello/"/>
-    <id>http://yoursite.com/2019/10/16/hello/</id>
+    <link href="http://xianpeiz.github.io/2019/10/16/hello/"/>
+    <id>http://xianpeiz.github.io/2019/10/16/hello/</id>
     <published>2019-10-16T09:55:16.923Z</published>
     <updated>2019-10-16T09:56:13.550Z</updated>
     
